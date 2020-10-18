@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SaravananVijayamuthu/NodeTypeScript/issues"
   },
-  "homepage": "https://github.com/SaravananVijayamuthu/NodeTypeScript#readme"
+  "homepage": "https://github.com/SaravananVijayamuthu/NodeTypeScript#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
 }
