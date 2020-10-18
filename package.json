@@ -1,0 +1,19 @@
+{
+  "name": "nodetypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaravananVijayamuthu/NodeTypeScript.git"
+  },
+  "author": "Saravanan Vijayamuthu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaravananVijayamuthu/NodeTypeScript/issues"
+  },
+  "homepage": "https://github.com/SaravananVijayamuthu/NodeTypeScript#readme"
+}
