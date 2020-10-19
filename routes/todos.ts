@@ -2,7 +2,7 @@ import { Router } from 'express';   //import express from 'express';
 import { Todo } from '../models/todos';
 
 //todo arr in mem
-const todos: Todo[] = [];
+let todos: Todo[] = [];
 
 const router = Router();            //const router = express.Router();
 
@@ -30,6 +30,12 @@ router.put('/todo/:todoId', (req, res, next) => {
         return res.status(200).json({message: 'updated todo', todos: todos});
     }
     res.status(404).json({message: `Couldn't find todo for this ID please try another ID.`});
-})
+});
+
+//delete
+router.delete('/todo/:todoId', (req, res, next) => {
+    todos = todos.filter(todoItem => todoItem.id !== req.params.todoId);
+    res.status(200).json({message: 'Deleted!!', todos: todos });
+});
 
 export default router;
