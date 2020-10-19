@@ -1,9 +1,9 @@
 # TypeScript-API
 <p>
-<img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" alt="express" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
-<img src="https://img.icons8.com/dusk/64/000000/postman-api.png" alt="postman" width="40" height="40"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="30" height="30"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" alt="express" width="30" height="30"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="30" height="30"/>
+<img src="https://img.icons8.com/dusk/64/000000/postman-api.png" alt="postman" width="30" height="30"/>
 </p> 
 
 [TypeScript](https://www.typescriptlang.org/) is a superset to JavaScript. That simply means that it extends JavaScript. It builds up on JavaScript. TypeScript gives us, as a developer, a better development experience because it adds certain feature to the code which only exist during development, but which still help us write better code and avoid unwanted errors. And unlike JavaScript, TypeScript does not run in the browser. Instead, TypeScript has to be compiled to JavaScript so that it runs again.
